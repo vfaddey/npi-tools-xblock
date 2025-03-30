@@ -1,0 +1,9 @@
+/* CSS for NpiToolsXBlock */
+
+.npixblock_block .count {
+    font-weight: bold;
+}
+
+.npixblock_block p {
+    cursor: pointer;
+}

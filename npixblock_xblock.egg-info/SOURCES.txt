@@ -1,0 +1,13 @@
+setup.py
+npixblock/__init__.py
+npixblock/npixblock.py
+npixblock/static/README.txt
+npixblock/static/css/npixblock.css
+npixblock/static/html/npixblock.html
+npixblock/static/js/src/npixblock.js
+npixblock_xblock.egg-info/PKG-INFO
+npixblock_xblock.egg-info/SOURCES.txt
+npixblock_xblock.egg-info/dependency_links.txt
+npixblock_xblock.egg-info/entry_points.txt
+npixblock_xblock.egg-info/requires.txt
+npixblock_xblock.egg-info/top_level.txt
