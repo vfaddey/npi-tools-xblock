@@ -1,5 +1,24 @@
-<div class="npixblock_block">
-<p>NpiToolsXBlock: count is now
-    <span class='count'>{self.count}</span> (click me to increment).
-</p>
+<div class="npixblock">
+    <!-- Отображение кнопки для студента -->
+    <div class="npixblock-student-view">
+        <a href="{link_url}" target="_blank">
+            <button class="npixblock-button">{button_text}</button>
+        </a>
+    </div>
+
+    <!-- Форма редактирования для Studio -->
+    <div class="npixblock-studio-view" style="display: none;">
+        <h3>Настройки кнопки</h3>
+        <label>
+            Текст кнопки:
+            <input type="text" class="npixblock-button-text" value="{button_text}" />
+        </label>
+        <br />
+        <label>
+            URL ссылки:
+            <input type="text" class="npixblock-link-url" value="{link_url}" />
+        </label>
+        <br />
+        <button class="npixblock-save-button">Сохранить</button>
+    </div>
 </div>
